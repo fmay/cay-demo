@@ -3,8 +3,13 @@
   {
    "id": "45d15327-a222-4bcb-b947-bf53ae76245b",
    "title": "The while loop",
-   "files": [],
-   "layout": "1-panel-tree",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-while-loop-45d1.md",
@@ -37,7 +42,7 @@
      "action": "open"
     }
    ],
-   "layout": "",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Flowchart-e683.md",
@@ -138,7 +143,7 @@
      "action": "close"
     },
     {
-     "path": "interact/4-4.html",
+     "path": "#preview: interact/4-4.html",
      "panel": 0,
      "action": "open"
     }
@@ -153,7 +158,7 @@
   },
   {
    "id": "718858ce-864a-4ba8-df00-4226e900cd59",
-   "title": "Interactivity 5 - Code 1",
+   "title": "Interactivity 5 - Code 6",
    "files": [
     {
      "path": "#tabs",
@@ -168,7 +173,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity-5---Code-1-7188.md",
+   "content-file": ".guides/content/Interactivity-5---Code-6-7188.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

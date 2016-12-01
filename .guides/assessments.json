@@ -122,7 +122,7 @@
    "showName": false,
    "arePartialPointsAllowed": false,
    "oneTimeTest": false,
-   "instructions": "Suppose we add $100 to a checking account in year 1,  $200 in year 2,  $300 in year 3, and so on. The account earns no interest. After how many years will the balance reach a given target? Modify the program below to produce the answer.\n",
+   "instructions": "Suppose we add \n- $100 to a checking account in year 1\n- $200 in year 2\n- $300 in year 3, and so on. \n\nThe account earns no interest. After how many years will the balance reach a given target? Modify the program below to produce the answer.",
    "command": ".guides/secure/i8.sh",
    "points": 1
   }

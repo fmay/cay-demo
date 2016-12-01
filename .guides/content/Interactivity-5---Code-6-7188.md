@@ -1,3 +1,9 @@
+
+{Check It!|assessment}(test-3791532714)
+
+|||guidance
+### Teacher Solution
+```java
 import java.util.Scanner;
 
 /**
@@ -18,9 +24,18 @@ public class DoubleInvestment
 
       double balance = INITIAL_BALANCE;
       int year = 0;
-
+     
       // TODO: Add annual contribution, but not in year 0
-
+      while (balance < TARGET) {
+        balance += balance*RATE/100;
+        balance += contribution;
+        year++;
+      }
+     balance -= contribution;
+     
       System.out.println("Year: " + year);
+      System.out.println("Balance: " + balance);
+     
    }
 }
+```

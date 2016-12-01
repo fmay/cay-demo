@@ -12,5 +12,6 @@
         "Current File (static)": "https://{{domain}}/{{filepath}}",
         "Box URL": "http://{{domain3000}}/",
         "Box URL SSL": "https://{{domain3000}}/"
-  }
+  },
+  "debugger": [{"type":"JAVA","command":"-agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105","before":"javac -g -d . java/DoubleInvestment.java && java -agentlib:jdwp=transport=dt_socket,server=y,suspend=y,address=5105 DoubleInvestment ","single":true,"path":"java/DoubleInvestment.java","args":"","uuid":"375585ee-90b9-00f6-0413-79ff81ae6531","name":"Double Investment"}]
 }
