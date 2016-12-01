@@ -1,0 +1,29 @@
+.horstmann_ma li {
+    list-style: none;
+    margin: 0;
+    padding: 7px 0px 3px 30px;
+}
+
+.horstmann_ma .hc-button.hc-unselected {
+    background: gray;
+}
+
+.horstmann_ma .hc-button.hc-selected {
+    background: #006cb7;
+}
+
+ol.horstmann_ma > li.correct.hc-true {
+    background: url("../images/tick.png") no-repeat left top;
+}
+
+ol.horstmann_ma > li.correct.hc-false {
+    background: url("../images/cross.png") no-repeat left top;
+}
+
+ol.horstmann_ma > li.hc-true {
+   background: url("../images/cross.png") no-repeat left top;
+}  
+
+ol.horstmann_ma > li.hc-false {
+   background: url("../images/tick.png") no-repeat left top;
+}

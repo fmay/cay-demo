@@ -1,0 +1,678 @@
+/* common for all */
+
+/* See Next Step button */
+.horstmann_walkthrough .seeNextStep, .horstmann_exampletable .seeNextStep, .horstmann_rearrange .seeNextStep, .horstmann_objectdiagram .seeNextStep {
+	display: none;
+	float: left;
+	margin: 1.54em 1.30em;
+	position: relative;
+}
+
+/* Incorrect warning message text */
+.horstmann_walkthrough .warningMsg, .horstmann_exampletable .warningMsg, .horstmann_rearrange .warningMsg, .horstmann_objectdiagram .warningMsg{
+    margin-top: 1.50em;
+    margin-left: 1.25em;
+    float: left;
+	display:none;
+}
+.horstmann_objectdiagram .warningMsg{
+	clear: both;
+}
+/* Good job message */
+.horstmann_walkthrough .goodjob, .horstmann_exampletable .goodjob, .horstmann_rearrange .goodjob, .horstmann_objectdiagram .goodjob{
+    display: none;
+    margin-left: 1.25em;
+    margin-top: 1.25em;
+    padding-bottom: 10px;
+}
+
+.horstmann_walkthrough .gJobText, .horstmann_exampletable .gJobText, .horstmann_rearrange .gJobText, .horstmann_objectdiagram .gJobText{
+    margin-left: 1.75em;
+}
+
+/* Bootom div containing startover button */
+.horstmann_walkthrough .bottomDv, .horstmann_exampletable .bottomDv, .horstmann_rearrange .bottomDv, .horstmann_objectdiagram .bottomDv{
+    clear: both;
+	text-align: center;
+    width: 100%;
+}
+
+/*  Error message */
+.horstmann_walkthrough .errorfeedback, .horstmann_exampletable .errorfeedback, .horstmann_rearrange .errorfeedback, .horstmann_objectdiagram .errorfeedback {
+    display:none;
+    height: 1.87em;
+    margin-left: 1em;
+    margin-top: .2em;
+	text-align: left;
+    position: relative;
+    width: 45%;
+}
+
+/* Instruction text */
+.horstmann_walkthrough .instructions, .horstmann_exampletable .instructions, .horstmann_rearrange .instructions, .horstmann_objectdiagram .instructions{
+	position:relative;
+	min-height:5.2em;
+	overflow:hidden;
+	width:100%;
+	padding:1.25em 0 0 1.25em;
+}
+
+/* Start message instruction */
+.horstmann_walkthrough .instructions1, .horstmann_exampletable .instructions1, .horstmann_rearrange .instructions1, .horstmann_objectdiagram .instructions1 {
+    margin: 0 1.25em;
+	width: 90%;
+}
+
+/*Horstmann_walkthrough css start*/
+
+/*Horstmann_walkthrough block style*/
+.horstmann_walkthrough{
+    overflow: hidden;
+    position: relative;
+    width:100%; 
+	-webkit-hyphens:none;
+	-moz-hyphens:none;
+	hyphens:none;
+}
+
+/* Styling the expression section */
+.horstmann_walkthrough .preTag {
+	/*width:50%;*/
+/* CSH	float:left;
+	position:relative;
+	height:100%;
+	border:none;
+	padding-bottom: 62.5em;
+	margin-bottom: -62.5em;
+*/
+}
+
+.horstmann_walkthrough .preTag {
+	padding-top:0.62em;
+	padding-right: 0.62em;
+	padding-left: 1.25em;
+
+}
+
+/*Horstmann_walkthrough Maintain line height*/
+.horstmann_walkthrough .preTag .mainSpan{
+	display:block;
+/* CSH margin-bottom:0.1em; */
+	cursor:default;
+	white-space: pre;
+}
+
+/*Horstmann_walkthrough cross image display*/
+.horstmann_walkthrough .preTag .mainSpan img
+{
+	display:inline;
+	margin-right:0.62em;
+	visibility:hidden;
+	width:1.56em;
+	height:1.56em;
+	z-index: 100;
+}
+
+/* Styling table section */
+.horstmann_walkthrough .Table{
+/* CSH    margin-bottom: -62.5em; */
+    /*margin-left: 50%;*/
+/* CSH    margin-top: -0.62em;
+    padding-bottom: 62em;
+    padding-top: 0.87em;
+    position: relative; */
+    /*min-width: 35%;*/
+/* CSH	float:left; */
+}
+
+.horstmann_walkthrough .Table table{
+	border:0.12em solid #FFFFFF;
+	/*margin:0.62em auto 1.5em;*/
+	margin-top: 0.62em;
+	margin-bottom: 1.5em;
+	padding:0;
+	border-spacing:0;
+	border-collapse:collapse;
+	width:70%;
+	letter-spacing:0.12em;
+}
+
+.horstmann_walkthrough .Table table th{
+	height:2.18em;
+	text-align: center;
+	border-right:0.12em solid #FFFFFF;
+}
+
+.horstmann_walkthrough .Table table th div{
+	position:absolute;
+	z-index:10;
+	top:0.62em;
+	left:0.62em; 
+}
+
+.horstmann_walkthrough .Table table td{
+	height:2em;	
+	border-right:0.12em solid #FFFFFF;
+	border-top:0.12em solid #FFFFFF;
+}
+
+/*Horstmann_walkthrough table input field*/
+.horstmann_walkthrough .Table table td input{
+	border: 2px solid #dadada;
+	width:83%;
+	height:2em;
+	text-align:center;
+        font-size: 91%; /* Undoes .hc-included .hc-hand 110% */
+}
+.horstmann_walkthrough .Table table td input[disabled="disabled"] {
+	border:none;
+}
+/*Horstmann_walkthrough input field cross*/
+.horstmann_walkthrough .trCrossImg {
+    margin-left: 73%;
+    margin-top: -3.9em;
+    padding-bottom: 2.18em;
+    width:0.93em;
+    height:0.93em;     
+    display: none;
+}
+
+@media all and (max-width: 48em) and (min-width: 32.5em){
+    .horstmann_walkthrough{
+		width:100%;
+		margin:0 auto;position:relative
+    }
+    .horstmann_walkthrough .preTag {
+        margin-left: -1.25em;       
+    }
+    .horstmann_walkthrough .trCrossImg {
+   	 	margin-left: 69%;   
+    }
+}
+
+@media all and (max-width: 64em) and (min-width: 48.06em){
+	.horstmann_walkthrough{
+		width:100%;
+		margin:0 auto;position:relative
+	}
+	.horstmann_walkthrough .trCrossImg {
+		margin-left: 73%;   
+	}
+    
+}
+/*Horstmann_walkthrough css end*/
+
+/*
+==========================================================================================
+==========================================================================================
+==========================================================================================
+*/
+
+/*Horstmann_exampletable css start*/
+
+.horstmann_exampletable{
+	width:100%;
+	position:relative;
+	height:auto;
+	overflow: hidden;
+	-webkit-hyphens:none;
+	-moz-hyphens:none;
+	hyphens:none;
+}
+
+/**********common style*******/
+
+.horstmann_exampletable .screen-instruction{
+	width:75%;
+	position:relative;
+	padding:0.93em 0em 0.62em 1.25em;
+}
+
+.horstmann_exampletable .horstmann_exampletable{
+	border-bottom-left-radius: 0.62em;
+	border-bottom-right-radius: 0.62em;
+	border-top: 0.12em solid #1A3459;
+	height: 22.0625em;
+	border-bottom-left-radius:0.62em;
+	border-bottom-right-radius:0.62em;
+	-moz-border-bottom-left-radius:0.62em;
+	-webkit-border--bottom-left-radius:0.62em;
+	-moz-border-bottom-right-radius:0.62em;
+	-webkit-border--bottom-right-radius:0.62em;
+	margin:0em auto;
+}
+
+.horstmann_exampletable .inner-content{
+	height: 15.93em;
+	margin-bottom: 0.31em;
+	overflow: auto;
+}
+
+.horstmann_exampletable input[type="text"] {
+    border: 2px solid #dadada;
+    display: inline-block;
+    height: 1.25em;
+    width: 70%;
+    text-align: center;
+    font-size: 1em;
+}
+
+.horstmann_exampletable input[disabled="disabled"] {
+	border: none;
+	display:inline-block;
+	
+}
+
+.horstmann_exampletable [class*='row-']{
+	padding: 0.62em 1.25em;
+	margin:0em 0em;
+	height:1.87em;
+	border-bottom:0.06em solid #ccc;
+}
+
+.horstmann_exampletable table th{
+    
+    text-align: center;
+    /*width: 28.75em;*/
+	border-bottom: 0.12em solid #FFFFFF;
+}
+.horstmann_exampletable table tr td{
+	/*width: 28.75em;*/
+	 
+}
+.horstmann_exampletable table th:last-child{
+    border-right: none;
+}
+
+.horstmann_exampletable table tr td:first-child{
+    padding:0.93em 1.25em;
+    border-right: 0.12em solid #FFFFFF;
+    border-bottom: 0.12em solid #FFFFFF;
+}
+
+.horstmann_exampletable table tr td:nth-child(2){
+	padding:0.93em 1.25em;
+    border-bottom: 0.12em solid #E7E7E8;
+    border-right: 0.12em solid #E7E7E8;
+	text-align: center;
+	/*min-width: 6em;*/
+}
+
+
+
+.horstmann_exampletable table tr td:last-child{
+    padding:0.93em 1.25em;
+	border-bottom: 0.12em solid #FFFFFF;
+}
+
+.horstmann_element .answer-borders{
+	border-right: 0.12em solid #ffffff !important;
+	border-bottom: 0.12em solid #ffffff !important;
+}
+
+.horstmann_exampletable .mark{ 
+    position: absolute;
+}
+.horstmann_exampletable .mark img{ 
+    margin-left: 1em;
+    vertical-align: middle
+    position: absolute;
+}
+
+.horstmann_exampletable .loading{
+	display: none;
+	height: 8.75em;
+	left: 29%;
+	position: absolute;
+	text-align: center;
+	top: 12.5em;
+	width: 25em;
+	z-index: 9999;	
+}
+
+.horstmann_exampletable table{
+    margin: 1em auto;
+    padding-bottom: 2.75em;
+    width: 95%;
+    table-layout: fixed;
+}
+
+/*.horstmann_exampletable .timespent{margin-left:2em;}*/
+
+.horstmann_exampletable table tr{width:50%;}
+
+@media all and (max-width: 48em) and (min-width: 32.5em){
+    [id*="ExampleTableCode-"] {
+		margin: 0 auto; 
+		width: 100%;
+    }
+}
+
+@media all and (max-width: 64em) and (min-width: 48.06em){
+   [id*="ExampleTableCode-"] {
+		margin: 0 auto; 
+		width: 100%;
+    }
+}
+
+/*Horstmann_exampletable css end*/
+
+/*
+==========================================================================================
+==========================================================================================
+==========================================================================================
+*/
+
+/*Horstmann_rearrange css start*/
+
+.horstmann_rearrange{
+    padding-bottom: 2em;
+    width:100%;
+    position:relative;
+    overflow: hidden;
+    height:auto;
+	-webkit-hyphens:none;
+	-moz-hyphens:none;
+	hyphens:none;
+	/*white-space: pre-wrap;*/
+}
+
+
+.horstmann_rearrange .drop-section .blockedItems, .horstmann_rearrange .drop-section .itemDropable{
+	margin: 0;
+	padding:0em;
+	width:100%;
+	overflow: hidden;
+}
+	 
+.horstmann_rearrange .drop-section .hc-tile{
+	list-style:none;
+	margin-bottom:0.31em;
+	padding:0.62em 0.62em;
+	
+}	
+
+.horstmann_rearrange .dummyLevels{
+    position:absolute;
+    z-index:-1;
+    width:26.12em;
+    display:none;
+}
+.horstmann_rearrange .dummyLevels div{
+	position:relative;
+    min-width:2.18em;
+    border-right:0.12em dashed #ccc;
+    float:left;
+    height:1.87em;
+    min-height:15.31em;
+}
+.horstmann_rearrange .dummy_placeholder,.placeholder{
+    min-height:1.87em;
+    background:none!important;
+    border:0.12em dashed #000;
+    padding:0em!important;
+    position:relative;
+    z-index:2;
+    margin-bottom: 3.12em;
+}
+.horstmann_rearrange .dummy_placeholder,.placeholder{
+    /*width:100%;*/
+}
+
+.horstmann_rearrange .drop-section,
+.horstmann_rearrange .section-1{
+	width: 45%;
+	display:inline-block;vertical-align:top;
+	padding: 1.25em 1.25em 0.62em 1.25em;
+	overflow: auto;
+	white-space: pre-wrap;
+	margin-right: -0.12em;
+	float:left;
+}
+.horstmann_rearrange .section-1-border{
+	border-right:0.12em solid #1a3459;
+}
+
+.horstmann_rearrange .section-2{
+	display:inline-block;vertical-align:top;
+/*	min-height:15.87em;*/
+	height: auto;
+	position:static;
+	padding: 1.25em 0.62em;
+	overflow: auto;
+	/**/
+	width: 45%;
+	float:left;
+	white-space: pre-wrap;
+}
+.horstmann_rearrange .section-2-border{
+	border-left:0.12em solid #1A3459;
+}
+
+.horstmann_rearrange .dragDiv{
+	margin-bottom: 0.31em;
+	padding:0.62em 0.62em;
+	cursor: default;
+}
+
+.horstmann_rearrange .mark{position:absolute;}
+
+[class*='clickContainer']{min-width:2.18em;border-right:0.12em dashed #ccc;float:left; min-height:1.87em;}
+
+.horstmann_rearrange [class*='drop-container']{
+	width:24.06em;
+	min-height:1.87em;
+	border:0.12em dashed #000;
+	margin-bottom:0.62em;
+	display:none;
+}
+.horstmann_rearrange .last{width:16.31em;border:none;float:left; min-height:1.87em;display:none;}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled{
+opacity:1;}
+
+.horstmann_rearrange .loading{
+	display: none;
+	height: 8.75em;
+	left: 29%;
+	position: absolute;
+	text-align: center;
+	top: 12.5em;
+	width: 25em;
+	z-index: 9999;	
+}
+.horstmann_rearrange .done{	
+    bottom: 8em;
+    display: none;
+    left: 20%;  
+}
+
+@media all and (max-width: 48em) and (min-width: 32.5em){
+    [id*="rearrangecode-"] {
+		margin: 0 auto; 
+		width: 100%;
+    }
+}
+
+@media all and (max-width: 64em) and (min-width: 48.06em){
+   [id*="rearrangecode-"] {
+		margin: 0 auto; 
+		width: 100%;
+    }
+}
+
+/*Horstmann_exampletable css end*/
+/*
+==========================================================================================
+==========================================================================================
+==========================================================================================
+*/
+
+/*horstmann_objectdiagram css start*/
+
+
+/* Styling object digram div */
+.horstmann_objectdiagram{
+    padding-bottom: 2em;
+/*    width:60em;*/
+    position:relative;
+    overflow: hidden;
+    height:auto;
+	-webkit-hyphens:none;
+	-moz-hyphens:none;
+	hyphens:none;
+}
+
+.horstmann_objectdiagram .instructionMsg{
+    margin-top: 1.50em;
+    margin-left: 1.25em;
+    float: left;
+    clear: both;
+	display:none;
+}
+
+.horstmann_objectdiagram .instructionMsg #msg{
+    /*margin-left: .5em;*/
+}
+.horstmann_objectdiagram .instNumber{
+  float: left;
+  margin-right: 0.5em;
+  font-size: 2em;
+}
+/* Styiling overall description*/
+.horstmann_objectdiagram .overall_description{
+	border-top: 0.37em solid #2D4C7A;
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+}
+
+/* Styiling goal description*/
+.horstmann_objectdiagram .goal_description{
+	position: relative;
+	height: 1.87em;
+	overflow: hidden;
+	width: 100%;
+	padding: 0.75em;
+	font-size: 1.42em;
+
+
+}
+
+/* Styling Drawing Area*/
+.horstmann_objectdiagram .canvasWrapper{
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.horstmann_objectdiagram .drawing_area{
+	position:relative;   	 
+}
+
+/* Styling input background color*/
+.horstmann_objectdiagram input{
+	width: 4.5em;/*60px;*/
+	height: 1.72em;/*23px;
+	background: #ffffff;*/
+	color: #000;
+	border: 0 solid black;
+	text-align: center;
+	margin-left: 0.11em;/*5px;*/
+	font-size: 1.1em;
+}
+
+/* Styling input focus */
+.horstmann_objectdiagram .focus{
+	border: none;
+	width: 100%;
+	height: 1.72em;
+	background: #FFFFFF;
+	color: #2E4D79;
+	text-align: center;
+}
+
+.horstmann_objectdiagram .trashMaster{
+	background: url("../images/trash.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    cursor: pointer;
+    display: none;
+    position: relative;
+    width: 3.66em;
+	height: 3.81em;
+    top: 22.54em;
+    left: 5.19em;
+	margin-bottom: -4.18em;
+}
+
+.horstmann_objectdiagram .cVariable
+{
+	padding: 0.75em;
+	border-radius: 1.87em;
+	background-color: #FFEFA9;
+	
+}
+
+.horstmann_objectdiagram .cVariable span
+{
+	position: absolute;
+	right: -24px;
+	display: none;
+}
+
+.horstmann_objectdiagram .cObjVariable span
+{
+	position: absolute;
+	right: -30px;
+	display: none;
+}
+
+.horstmann_objectdiagram .cObject{
+	position:absolute;
+	/*width:10.45em;*/
+	text-align:center;
+	border-radius: 0.75em;
+	background-color: #DF8489;
+	padding: 0.75em;
+	
+}
+.horstmann_objectdiagram .cObject .objectTitle{
+	border-bottom:0.1em solid #000;
+	font-size: 1.3em;
+	font-weight:bold;
+}
+
+.horstmann_objectdiagram .cObject .crossMark{
+	position: absolute;
+	right: -24px;
+	top:5px;
+	display: none;
+}
+
+.horstmann_objectdiagram .cObject .cObjSplitLine{
+	position: absolute;
+	left: 0;
+	top: 2.99em;
+	width: 100%;
+	height: 0.45em;
+	background-color: white;
+}
+/*  Next button in Object Diagram  */
+.btnNext{
+    display: none;
+    top: 1.25em;
+margin-left: 10px;
+}
+
+/*  Play in Object Diagram  */
+.btnPlay{
+    display: none;
+}
+
+.codeContainer {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.codeContainer > pre, .codeContainer > .Table {
+    display: inline-block;
+    vertical-align: top; 
+}

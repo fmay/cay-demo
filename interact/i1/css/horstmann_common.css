@@ -1,0 +1,358 @@
+/* This is for styling the p, pre, code, etc. in an included item */
+
+.hc-included {
+}
+
+.hc-included pre strong {
+    color: #006cb7;
+}
+
+.hc-included p {
+	color:#000000;
+	font-family:"STIX-Word", "Times New Roman", serif;
+	font-size:0.875em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.143;
+	list-style-position:inside;
+	list-style-type:decimal;
+	margin-bottom:12px;
+	margin-left:0px;
+	margin-right:20px;
+	margin-top:12px;
+	text-align:left;
+	text-indent:0;
+	text-transform:none;
+	widows:2;
+}
+.hc-included li {
+	color:#000000;
+	font-family:"STIX-Word", "Times New Roman", serif;
+	font-size:0.875em;
+	line-height:1.143;
+	margin-bottom:6px;
+	margin-top:6px;
+}
+.hc-included li.hc-code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+}
+
+.hc-included pre {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+	line-height:1.43;
+}
+.hc-included code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: 76%;
+	white-space: pre-wrap;
+}
+.hc-included pre.pseudo {
+    font-family:"DOM Casual Std", "Comic Sans MS", "MarkerFelt-Thin", cursive;
+    font-size: 110%;
+}
+.hc-included .hc-hand {
+    font-family:"DOM Casual Std", "Comic Sans MS", "MarkerFelt-Thin", cursive;
+    font-size: 110%;
+}
+.hc-included p.QNL3_cc {
+	color:#000000;
+	font-family:"Lucida Sans Std", "Arial", sans-serif;
+	font-size:0.75em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:1.143;
+	margin-bottom:6px;
+	margin-left:-5.4em;
+	margin-right:0px;
+	margin-top:12px;
+	page-break-after:auto;
+	page-break-before:avoid;
+	text-align:left;
+	background-color:#ededed;
+	padding-bottom:.75em;
+	padding-top: .75em;
+	padding-left: 5.4em;
+	padding-right:.75em;
+}
+
+.hc-included table th {
+    font-family:"Lucida Sans Std", "Arial", sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+.hc-included table td {
+    font-family:"STIX-Word", "Times New Roman", serif;
+    font-size: .875em;
+} 
+
+/* All styling that is common to multiple elements goes here */
+
+/*default font*/
+
+/* Use these mixins for fonts, colors, and button shapes */
+
+/* Add whenever you need a handwriting font */
+
+.hc-hand {
+    font-family:"DOM Casual Std", "Comic Sans MS", "MarkerFelt-Thin", cursive;
+    font-size: .95em;
+}
+
+.hc-circled-number {
+    font-family:"NanumGothic-Bold", "Lucida Sans Std", "Arial", sans-serif;
+    font-size: 1.6em;
+    color: #006cb7;
+    vertical-align: middle;
+}
+.hc-circled-number2 {
+    font-family:"NanumGothic-Bold", "Lucida Sans Std", "Arial", sans-serif;
+    font-size: 1em;
+    color: #006cb7;
+    vertical-align: text-bottom;
+}
+
+/* Add whenever you need a computer (mono) font */
+
+.hc-code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+}
+
+/* Font for all messages */
+
+.hc-message {
+    font-family:"Lucida Sans Std", "Arial", sans-serif;
+    font-weight: bold; 
+    font-size: .75em;	 
+    color: #006cb7;
+}
+.hc-message code {
+    font-size: 100%;
+}
+/* Shape for all buttons */
+
+.hc-button {
+    font-family:"Lucida Sans Std", "Arial", sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0.2em .56em;
+    border-radius: 0.56em;
+    position: relative;
+    font-size: .75em;	 
+}
+
+.hc-button code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: 100%;	 
+}
+
+/* Color for start, start over */
+
+.hc-button.hc-start {
+    background: #24ADAE;
+	margin-left:1.25em;
+}
+
+/* Color for steps */
+
+.hc-button.hc-step {
+    background: #006cb7;
+}
+
+.hc-message.hc-step {
+    color: #006cb7;
+}
+
+/* Color for retry */
+
+.hc-button.hc-retry {
+    background: #E19042;
+}
+
+.hc-message.hc-retry {
+    color: #E19042;
+}
+
+/* Color for error count */
+
+.hc-message.hc-errors {
+    color: #006cb7;
+}
+
+/* Color for good job message */
+
+.hc-message.hc-good {
+    color: #63B147;
+}
+
+/* Color for disabled jQuery buttons */
+
+.hc-button.ui-button-disabled {
+    background: gray;
+}
+
+/* Border on top of bottom panel */
+
+.hc-bottom {
+    border-top: 0.1em solid #000000;
+}
+
+/* Background color for instruction panel */
+
+.hc-instructions {
+    background: #F3F3F4;
+    line-height: 1.1em; 
+}
+
+/* Code line highlight color*/
+
+.hc-highlight {
+    background: #ffe06a;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+/* Table header in code walkthrough and example table. Apply
+the background color to the border style that follows. */
+
+.hc-tableheader {
+    background: #F3F3F4;
+    border-right: 0.06em solid #FFFFFF;
+    color: #000000;
+}
+
+.hc-notableheader{
+    border-top:0.12em solid #F3F3F4;
+}
+
+.horstmann_walkthrough .hc-tableheader {
+    font-family:"DOM Casual Std", "Comic Sans MS", "MarkerFelt-Thin", cursive;
+    font-weight:normal;
+    color: #006cb7;
+    font-size: 105%;
+    }
+.horstmann_walkthrough table td {
+    font-family:"DOM Casual Std", "Comic Sans MS", "MarkerFelt-Thin", cursive;
+    font-weight:normal;
+    color: #006cb7;
+    font-size: 100%;
+    }
+
+.horstmann_walkthrough pre {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+}
+.horstmann_walkthrough hc-circled-number {
+    font-family:"Lucida Sans Std", "Arial", sans-serif;
+    font-size: 3em;
+    color: #006cb7;
+    vertical-align: middle;
+}
+
+.horstmann_walkthrough pre.hc-hand {
+    font-family:"DOM Casual Std", "Comic Sans MS", "MarkerFelt-Thin", cursive;
+    font-size: 1.1em;
+}
+
+.horstmann_exampletable table td {
+    font-family:"STIX-Word", "Times New Roman", serif;
+    font-size: .875em;
+} 
+.horstmann_exampletable table td p{
+    font-family:"STIX-Word", "Times New Roman", serif;
+    font-size: 1em;
+} 
+
+.horstmann_exampletable table td code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .76em; /* .76 * .875 */
+    word-wrap: break-word;
+} 
+
+.horstmann_exampletable table td pre {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .76em; /* .76 * .875 */
+} 
+
+.horstmann_exampletable table td.hc-code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em; /* .76 * .875 */
+}
+
+.horstmann_exampletable table th {
+    font-family:"Lucida Sans Std", "Arial", sans-serif;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.horstmann_exampletable table th code {
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: 100%;
+}
+
+.horstmann_objectdiagram .variableContent{
+    font-family:"Lucida Sans Std", "Arial", sans-serif;
+    font-size: 1.1em;
+}
+.horstmann_objectdiagram .code{
+    font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: 100%;
+}
+
+/* Table cell in code walkthrough */
+
+.hc-tablecell{
+    background:#E9EDF7;
+    color:#2E4D79;
+}
+
+/* Background for input fields */
+
+.hc-input{
+    background: #ffffff;
+}
+
+/* Problem statement column of example table */
+
+.hc-example{
+	background: #E9EDF7;
+}
+
+/* Correct and incorrect inputs in input column of example table */
+
+.hc-example-correct{
+    background: #e9f2dd !important;
+}
+.hc-example-incorrect{
+    background: #F4D3DD;
+}
+
+/* Explanation column of example table */
+
+.hc-explanation{
+    background: #E9EDF7;
+    text-align: center;
+}
+
+.hc-draggable{
+    background:#F3F3F4;
+}
+
+
+
+/* Grid for object diagram */
+
+.hc-grid {
+    width: 15em;
+    height: 3em; 
+}
+
+.hc-vstbutton {
+    padding-bottom: 3ex;
+    margin-bottom: 3ex;
+}

@@ -1,0 +1,139 @@
+/* Font for messages */
+
+.horstmann_algosim .message {
+    font-family: "Lucida Sans Std", "Arial", sans-serif;    
+    font-weight: bold;
+}
+
+/* Shape for all buttons */
+
+.horstmann_algosim .button {
+    font-family: "Lucida Sans Std", "Arial", sans-serif;    
+    font-weight: bold;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0.12em 1.56em;
+    border-radius: 0.56em;
+}
+
+/* Color for start, start over */
+.horstmann_algosim .button.start {
+    background: #24ADAE;
+}
+
+/* Color for steps */
+.horstmann_algosim .button.step {
+    background: #006cb7;
+}
+
+.horstmann_algosim .message.step {
+    color: #006cb7;
+}
+
+/* Color for retry */
+.horstmann_algosim .button.retry {
+    background: #E19042;
+}
+
+.horstmann_algosim .message.retry {
+    color: #E19042;
+}
+
+/* Color for error count */
+.horstmann_algosim .message.errors {
+    color: #006cb7;
+}
+
+/* Color for good job message */
+.horstmann_algosim .message.good {
+    color: #63B147;
+}
+
+/* Color for disabled buttons */
+.horstmann_algosim .button.ui-button-disabled {
+    background: gray;
+}
+
+/* Font for the algorithm state */
+.horstmann_algosim .statepanel {
+	font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+	font-size:.833em;
+	margin-left:2em;
+}
+
+/* Background for instruction panel */
+.horstmann_algosim .instructionpanel {
+    background: #F3F3F4;
+}
+
+/* Border on top of bottom panel */
+.horstmann_algosim .bottompanel {
+    border-top: 0.1em solid #000000;
+}
+
+/* More technical settings below */
+
+.horstmann_algosim .instructionpanel, .horstmann_algosim .statepanel, .horstmann_algosim .bottompanel {
+    padding: 0.5em;
+}
+
+.horstmann_algosim .instructionpanel div {
+    margin: 0.5em;
+}
+
+.horstmann_algosim .buttonpanel {
+    margin: 1em;
+}
+
+.horstmann_algosim .bottompanel .buttonpanel {
+    text-align: center;
+}
+
+.horstmann_algosim table.array {
+  border-style: none;
+  border-collapse:separate;
+  border-spacing:0.3em;
+  font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+}
+
+.horstmann_algosim td.index { 
+  font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+    text-align: center;
+}
+
+.horstmann_algosim td.variableName { 
+  font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+    text-align: right;
+}
+
+.horstmann_algosim td.variable { 
+  font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+  text-align: center;
+  margin: 0.5em;
+  min-width: 2.5em;
+  min-height: 2.5em;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  border-style: none;
+  background-color: #80d4ce; 
+}
+
+.horstmann_algosim td.character { 
+  font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+    font-size: .667em;
+  text-align: center;
+  margin: 0.1em;
+  min-width: 1.5em;
+  padding-top: 0.25em;
+  padding-bottom: 0.25em;
+  border-style: none;
+  background-color: #80d4ce; 
+}
+
+.horstmann_algosim td.hidden { 
+  background-color: #80d4ce; 
+}
+

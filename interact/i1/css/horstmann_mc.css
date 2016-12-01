@@ -1,0 +1,33 @@
+ol.multiple-choice > li {
+    list-style: none;
+	margin: 0;
+	padding: 7px 0px 3px 30px;
+	background: url("../images/box.png") no-repeat left top;
+	font-family:"STIX-Word", "Times New Roman", serif;
+font-size:.875em;
+}
+
+ol.multiple-choice > li code {
+	font-family: "Lucida Sans Typewriter Std",  "Courier New", monospace;
+font-size:76%;
+}
+ol.multiple-choice > li pre {
+	font-family: "Lucida Sans Typewriter Std",  "Courier New", monospace;
+font-size:76%;
+line-height:1.3;
+}
+ol.multiple-choice > li .hand {
+	font-family:"DOM Casual Std", "Comic Sans", "MarkerFelt-Thin", cursive;
+font-size:110%;
+}
+ol.multiple-choice > li.correct.clicked {
+    background: url("../images/box_tick.png") no-repeat left top;
+    /** content: url("../images/ok.png");  
+    padding-left: 0.5em;  */
+}
+
+ol.multiple-choice > li.clicked {
+   background: url("../images/box_cross.png") no-repeat left top;
+ /**  content: url("../images/error.png");  
+    padding-left: 0.5em;  */
+}  

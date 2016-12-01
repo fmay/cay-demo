@@ -1,0 +1,49 @@
+.glossary{
+	font-weight: bold;
+	cursor: pointer;
+	-webkit-hyphens: none;
+}
+.glossary_box {
+	color: black;
+	z-index: 100;
+	background-size: auto 85%;
+	box-shadow: 4px 4px 4px #999999;
+   border-radius: 10px;
+	padding:5px; 
+	bottom: auto; 
+	width:242px;
+   overflow: hidden;
+	background-color: #F3F0DD;
+}
+.glossary_close_btn{
+	 width: 242px;
+    height: 50px;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+	 cursor:pointer;
+}
+.glossaryContentBubble{
+	width:222px;
+	text-align: left;
+	padding: 10px 10px 10px 10px;
+	display: inline-block;
+}
+.glossaryContentBubble code{
+	font-family:"Lucida Sans Typewriter Std", "Courier New", monospace;
+	font-size:95%;
+}
+.glossaryHeading{
+	font-family:"Lucida Sans Std", "Arial", sans-serif;
+	font-size: .75em;
+	font-weight:bold;
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+.glossaryContent{
+	font-family:"Lucida Sans Std", "Arial", sans-serif;
+	font-size: .75em;
+	text-align: left;
+}
+
+

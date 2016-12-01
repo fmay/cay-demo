@@ -1,0 +1,73 @@
+{
+ "sections": [
+  {
+   "id": "45d15327-a222-4bcb-b947-bf53ae76245b",
+   "title": "The while loop",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-while-loop-45d1.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "8d42f36e-fc68-7caf-5400-b659166c4038",
+   "title": "The while statement",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/The-while-statement-8d42.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "e6834311-2211-7c26-de04-81c64247fa24",
+   "title": "Flowchart",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Flowchart-e683.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "18e3561e-4018-9eb1-4400-6943eb160d7a",
+   "title": "Real 'while' code",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Real--while--code-18e3.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "9221cf1b-8710-6ac3-f1a9-518f084ec68a",
+   "title": "Loop examples",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Loop-examples-9221.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d11fad28-9c42-39c7-dc1a-a9af84c7045f",
+   "title": "New Section 6",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-6-d11f.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  }
+ ],
+ "theme": "light",
+ "scripts": [],
+ "lexikonTopic": ""
+}
