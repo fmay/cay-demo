@@ -1,3 +1,6 @@
+You can compile and run your code at any time by pressing the Run button below. Once you are done, press the Check It button below the challenge details.
+
+{Compile and run}(interact/i6/i6i6.sh)
 
 {Check It!|assessment}(test-3791532714)
 

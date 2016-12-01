@@ -8,7 +8,7 @@ Recall the investment problem from Chapter 1 : *You put $10,000 into a bank acco
 
 In Chapter 1 we developed the following algorithm for this problem:
 
-![ddd](.guides/img/bjol_04_un02.png)
+![](.guides/img/bjol_04_un02.png)
 
 Below is some pseudocode that describes the problem.
 
