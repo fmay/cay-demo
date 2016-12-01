@@ -1,0 +1,130 @@
+[
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-1486334806",
+  "source": {
+   "name": "Interactivity 1",
+   "showName": false,
+   "instructions": "What output does this while loop generate?\n\n```java\nint number = 1;\nwhile (number <= 5)\n{\n   int value = number * 3;\n   System.out.print(value + \", \");\n   number++;\n}\n```",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "05128a8c-19f9-5198-a701-bdbb1b3e3095",
+     "correct": false,
+     "answer": "1, 2, 3, 4, 5,"
+    },
+    {
+     "_id": "656255c1-f295-8afe-ef9b-a3b000d261c4",
+     "correct": false,
+     "answer": "3, 3, 3, 3, 3, "
+    },
+    {
+     "_id": "b62375a5-58d7-02a9-517a-9e95dfae2c62",
+     "correct": true,
+     "answer": "3, 6, 9, 12, 15,"
+    },
+    {
+     "_id": "3dd9c90b-f32a-3630-6272-852022749eef",
+     "correct": false,
+     "answer": "3, 6, 9, 12,"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-4236845060",
+  "source": {
+   "name": "Interactivity 2",
+   "showName": false,
+   "instructions": "Insert the missing condition in the following code fragment. The code is intended to compute and display the sum of the first 100 positive integers.\n```java\nint number = 1;\nint sum = 0;\nwhile (__________)\n{\n   sum = sum + number;\n   number++;\n}\nSystem.out.print(sum);\n```",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "a804e436-7c7b-6ed6-993c-3aab3186bd13",
+     "correct": false,
+     "answer": "number >= 100"
+    },
+    {
+     "_id": "374ea8c8-df89-500d-52ba-0e4b2b67884f",
+     "correct": true,
+     "answer": "number <= 100"
+    },
+    {
+     "_id": "5831a542-5d0f-4d08-f3bf-43d290f6b417",
+     "correct": false,
+     "answer": "number < 100"
+    },
+    {
+     "_id": "e01c2d62-09a4-34de-af9e-81e74d076cdf",
+     "correct": false,
+     "answer": "sum == 100"
+    }
+   ]
+  }
+ },
+ {
+  "type": "multiple-choice",
+  "taskId": "multiple-choice-2963477499",
+  "source": {
+   "name": "Interactivity 3",
+   "showName": false,
+   "instructions": "Which of the following code segments results in an infinite loop?",
+   "points": "1",
+   "incorrectPoints": "0",
+   "multipleResponse": false,
+   "answers": [
+    {
+     "_id": "9c8da8c2-59e7-7e4b-a18e-2a247b0e78ab",
+     "correct": false,
+     "answer": "```java\r\n                        int counter = 1;\r\n                        while (counter <= 0)\r\n                        {\r\n                           counter--;\r\n                        }\r\n                        ```"
+    },
+    {
+     "_id": "79e9ffd0-d68a-f003-3f6f-2599f0db5774",
+     "correct": false,
+     "answer": "```java\r\n                  int counter = 1;\r\n                  while (counter <= 0)\r\n                  {\r\n                     counter++;\r\n                  }\r\n                  ```"
+    },
+    {
+     "_id": "09136f43-5f6c-4f14-f737-208482f0147a",
+     "correct": false,
+     "answer": "```java\r\n                  int counter = 1;\r\n                  while (counter >= 0)\r\n                  {\r\n                     counter--;\r\n                  }\r\n                  ```"
+    },
+    {
+     "_id": "6fed4615-84df-6c93-03f5-32dbdbf6d981",
+     "correct": true,
+     "answer": "```java\r\n            int counter = 1;\r\n            while (counter >= 0)\r\n            {\r\n               counter++;\r\n            }\r\n            ```"
+    }
+   ]
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3791532714",
+  "source": {
+   "name": "i6",
+   "showName": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Suppose we add a fixed amount of money into our bank account at the beginning of every year. Modify the program on the left hand side to show how many years it takes for the balance to double, given the annual contributions and the interest. Also print the final balance.\n\nOnce you have modified the code, press the button below to test it out.",
+   "command": ".guides/secure/i6.sh",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3607881362",
+  "source": {
+   "name": "i8",
+   "showName": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Suppose we add $100 to a checking account in year 1,  $200 in year 2,  $300 in year 3, and so on. The account earns no interest. After how many years will the balance reach a given target? Modify the program below to produce the answer.\n",
+   "command": ".guides/secure/i8.sh",
+   "points": 1
+  }
+ }
+]

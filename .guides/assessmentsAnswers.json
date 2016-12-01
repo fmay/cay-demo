@@ -1,0 +1,56 @@
+[
+ {
+  "taskId": "multiple-choice-1486334806",
+  "points": 1,
+  "state": {
+   "active": "b62375a5-58d7-02a9-517a-9e95dfae2c62"
+  },
+  "results": [
+   {
+    "current": [
+     "b62375a5-58d7-02a9-517a-9e95dfae2c62"
+    ],
+    "right": [
+     "b62375a5-58d7-02a9-517a-9e95dfae2c62"
+    ],
+    "timestamp": 1480589847990
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-4236845060",
+  "points": 1,
+  "state": {
+   "active": "374ea8c8-df89-500d-52ba-0e4b2b67884f"
+  },
+  "results": [
+   {
+    "current": [
+     "374ea8c8-df89-500d-52ba-0e4b2b67884f"
+    ],
+    "right": [
+     "374ea8c8-df89-500d-52ba-0e4b2b67884f"
+    ],
+    "timestamp": 1480589913492
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-2963477499",
+  "points": 1,
+  "state": {
+   "active": "6fed4615-84df-6c93-03f5-32dbdbf6d981"
+  },
+  "results": [
+   {
+    "current": [
+     "6fed4615-84df-6c93-03f5-32dbdbf6d981"
+    ],
+    "right": [
+     "6fed4615-84df-6c93-03f5-32dbdbf6d981"
+    ],
+    "timestamp": 1480589962473
+   }
+  ]
+ }
+]

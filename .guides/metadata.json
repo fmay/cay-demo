@@ -4,6 +4,7 @@
    "id": "45d15327-a222-4bcb-b947-bf53ae76245b",
    "title": "The while loop",
    "files": [],
+   "layout": "1-panel-tree",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-while-loop-45d1.md",
@@ -25,7 +26,18 @@
   {
    "id": "e6834311-2211-7c26-de04-81c64247fa24",
    "title": "Flowchart",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "flode/loop1.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Flowchart-e683.md",
@@ -36,7 +48,18 @@
   {
    "id": "18e3561e-4018-9eb1-4400-6943eb160d7a",
    "title": "Real 'while' code",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "java/DoubleInvestment.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Real--while--code-18e3.md",
@@ -47,7 +70,13 @@
   {
    "id": "9221cf1b-8710-6ac3-f1a9-518f084ec68a",
    "title": "Loop examples",
-   "files": [],
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Loop-examples-9221.md",
@@ -57,11 +86,122 @@
   },
   {
    "id": "d11fad28-9c42-39c7-dc1a-a9af84c7045f",
-   "title": "New Section 6",
+   "title": "Challenges",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-d11f.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "f9a6f200-9504-307a-484f-3fa1534cf911",
+   "title": "Interactivity 1",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/New-Section-6-d11f.md",
+   "content-file": ".guides/content/Interactivity-1-f9a6.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "02de4938-dae9-5cfb-b086-5a9985457232",
+   "title": "Interactivity 2",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactivity-2-02de.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "593a8308-5dd1-b8b5-e0c3-721144b9b544",
+   "title": "Interactivity 3",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactivity-3-593a.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "998379f8-fa67-5ac4-029b-caa1b6199418",
+   "title": "Interactivity 4",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "interact/4-4.html",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactivity-4-9983.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "718858ce-864a-4ba8-df00-4226e900cd59",
+   "title": "Interactivity 5 - Code 1",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "interact/i6/DoubleInvestment.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactivity-5---Code-1-7188.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "35489e01-2d6d-6553-b6bb-b032c9b44f29",
+   "title": "Interactivity - Code 8",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "interact/i8/DoubleInvestment.java",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "2-panels",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Interactivity---Code-8-3548.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "d70b2986-859b-b2f5-4b7e-f25da93a8960",
+   "title": "New Section 13",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/New-Section-13-d70b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
