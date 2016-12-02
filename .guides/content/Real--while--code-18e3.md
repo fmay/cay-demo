@@ -14,4 +14,8 @@ In contrast, the balance and year variables were declared outside the loop body.
 On the left is the real code solution. 
 
 ### Try the Debugger
-You can step through this code yourself using the integrated debugger. We would normally provide instructions here but this is only a demo for Cay.
+You can step through this code yourself using the integrated debugger. 
+
+{Debug the code | debugger}(Double Investment)
+
+We would normally provide instructions here but this is only a demo for Cay.

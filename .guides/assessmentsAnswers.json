@@ -1,55 +1,39 @@
 [
  {
-  "taskId": "multiple-choice-1486334806",
-  "points": 1,
-  "state": {
-   "active": "b62375a5-58d7-02a9-517a-9e95dfae2c62"
-  },
+  "taskId": "test-3791532714",
+  "points": 0,
   "results": [
    {
-    "current": [
-     "b62375a5-58d7-02a9-517a-9e95dfae2c62"
-    ],
-    "right": [
-     "b62375a5-58d7-02a9-517a-9e95dfae2c62"
-    ],
-    "timestamp": 1480589847990
+    "code": 1,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...\nThis test failed. We passed in a contribution of <b>100and expected it to take 13 year and leave a balance of 20527",
+    "timestamp": 1480670514580
+   },
+   {
+    "code": 0,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...\nAll tests passed! Well done.",
+    "timestamp": 1480670501300
+   },
+   {
+    "code": 0,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...\nAll tests passed! Well done.",
+    "timestamp": 1480623714360
+   },
+   {
+    "code": 126,
+    "output": "/usr/share/rpc/bash-proxy.sh: line 11: interact/i6/i6.py: Permission denied",
+    "timestamp": 1480623639324,
+    "state": "fail"
    }
   ]
  },
  {
-  "taskId": "multiple-choice-4236845060",
-  "points": 1,
-  "state": {
-   "active": "374ea8c8-df89-500d-52ba-0e4b2b67884f"
-  },
+  "taskId": "test-3607881362",
+  "points": 0,
   "results": [
    {
-    "current": [
-     "374ea8c8-df89-500d-52ba-0e4b2b67884f"
-    ],
-    "right": [
-     "374ea8c8-df89-500d-52ba-0e4b2b67884f"
-    ],
-    "timestamp": 1480589913492
-   }
-  ]
- },
- {
-  "taskId": "multiple-choice-2963477499",
-  "points": 1,
-  "state": {
-   "active": "6fed4615-84df-6c93-03f5-32dbdbf6d981"
-  },
-  "results": [
-   {
-    "current": [
-     "6fed4615-84df-6c93-03f5-32dbdbf6d981"
-    ],
-    "right": [
-     "6fed4615-84df-6c93-03f5-32dbdbf6d981"
-    ],
-    "timestamp": 1480589962473
+    "code": 127,
+    "output": "/usr/share/rpc/bash-proxy.sh: line 11: .guides/secure/i8.sh: No such file or directory",
+    "timestamp": 1480623779249
    }
   ]
  }

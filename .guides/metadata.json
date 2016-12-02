@@ -103,40 +103,40 @@
   },
   {
    "id": "f9a6f200-9504-307a-484f-3fa1534cf911",
-   "title": "Interactivity 1",
+   "title": "MCQ - Output",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity-1-f9a6.md",
+   "content-file": ".guides/content/MCQ---Output-f9a6.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
   {
    "id": "02de4938-dae9-5cfb-b086-5a9985457232",
-   "title": "Interactivity 2",
+   "title": "MCQ - Missing",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity-2-02de.md",
+   "content-file": ".guides/content/MCQ---Missing-02de.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
   {
    "id": "593a8308-5dd1-b8b5-e0c3-721144b9b544",
-   "title": "Interactivity 3",
+   "title": "MCQ - Infinite",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity-3-593a.md",
+   "content-file": ".guides/content/MCQ---Infinite-593a.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
   {
    "id": "998379f8-fa67-5ac4-029b-caa1b6199418",
-   "title": "Interactivity 4",
+   "title": "Interactivity - Output",
    "files": [
     {
      "path": "#tabs",
@@ -151,14 +151,14 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity-4-9983.md",
+   "content-file": ".guides/content/Interactivity---Output-9983.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
   {
    "id": "718858ce-864a-4ba8-df00-4226e900cd59",
-   "title": "Interactivity 5 - Code 6",
+   "title": "Code Test Double with Contribution",
    "files": [
     {
      "path": "#tabs",
@@ -173,14 +173,14 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity-5---Code-6-7188.md",
+   "content-file": ".guides/content/Code-Test-Double-with-Contribution-7188.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false
   },
   {
    "id": "35489e01-2d6d-6553-b6bb-b032c9b44f29",
-   "title": "Interactivity - Code 8",
+   "title": "Code Test - Increasing contribution",
    "files": [
     {
      "path": "#tabs",
@@ -195,7 +195,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Interactivity---Code-8-3548.md",
+   "content-file": ".guides/content/Code-Test---Increasing-contribution-3548.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

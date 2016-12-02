@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys
 import subprocess
 import os
@@ -7,7 +9,7 @@ os.chdir('/home/codio/workspace/interact/i6/')
 
 def start_test(cont, years, balance):
   try:
-    p = Popen(['java', 'DoubleInvestment'], stdout=PIPE, stdin=PIPE, stderr=PIPE)
+    p = Popen(['java', 'DoubleInvestment6'], stdout=PIPE, stdin=PIPE, stderr=PIPE)
     p.stdin.write(cont + '\n')
     output = p.communicate()[0]
     p.stdin.close()
@@ -22,7 +24,7 @@ def start_test(cont, years, balance):
 def compile_test():
   print("Compiling your code, please wait ...")
   try:
-    output = subprocess.check_output("javac DoubleInvestment.java", shell=True)
+    output = subprocess.check_output("javac DoubleInvestment6.java", shell=True)
   except subprocess.CalledProcessError as e:
     print("<h3>Compile Error</h3>")
     print("<pre>" + e.output + "</pre>")
