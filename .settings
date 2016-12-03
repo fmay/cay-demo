@@ -1,6 +1,6 @@
 [editor]
 tab_size = 2
-; enter your editor preferences here...
+font_size = 16
 
 [view-javascript-code]
 ; enter your view-javascript-code preferences here...
@@ -12,7 +12,7 @@ tab_size = 2
 ; enter your git preferences here...
 
 [terminal]
-; enter your terminal preferences here...
+font_size = 16
 
 [preview]
 ; enter your preview preferences here...

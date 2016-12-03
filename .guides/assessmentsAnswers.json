@@ -1,8 +1,48 @@
 [
  {
   "taskId": "test-3791532714",
-  "points": 0,
+  "points": 1,
   "results": [
+   {
+    "code": 0,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...<br>\n<b>All tests passed! Well done.</b>",
+    "timestamp": 1480691622208
+   },
+   {
+    "code": 1,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...<br>\nThis test failed. We passed in a contribution of <b>100</b>. The results should have been <ul><li>Years: 13</li><li>Balance: 20527",
+    "timestamp": 1480691583569
+   },
+   {
+    "code": 0,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...<br>\n<b>All tests passed! Well done.</b>",
+    "timestamp": 1480675763460
+   },
+   {
+    "code": 0,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...<br>\n<b>All tests passed! Well done.</b>",
+    "timestamp": 1480675171087
+   },
+   {
+    "code": 0,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...<br>\nAll tests passed! Well done.",
+    "timestamp": 1480675139891
+   },
+   {
+    "code": 1,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...<br>\nThis test failed. We passed in a contribution of <b>100</b>. The results should have been <ul><li>Years: 13</li><li>Balance: 20527",
+    "timestamp": 1480675098178
+   },
+   {
+    "code": 1,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...\nThis test failed. We passed in a contribution of <b>100</b>. The results should have been <ul><li>Years: 13</li><li>Balance: 20527",
+    "timestamp": 1480675065167
+   },
+   {
+    "code": 1,
+    "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...\nThis test failed. We passed in a contribution of <b>100and expected it to take 13 year and leave a balance of 20527",
+    "timestamp": 1480674854056
+   },
    {
     "code": 1,
     "output": "<h3>Double your money</h3>\nCompiling your code, please wait ...\nThis test failed. We passed in a contribution of <b>100and expected it to take 13 year and leave a balance of 20527",
@@ -33,7 +73,66 @@
    {
     "code": 127,
     "output": "/usr/share/rpc/bash-proxy.sh: line 11: .guides/secure/i8.sh: No such file or directory",
+    "timestamp": 1480675746769
+   },
+   {
+    "code": 127,
+    "output": "/usr/share/rpc/bash-proxy.sh: line 11: .guides/secure/i8.sh: No such file or directory",
     "timestamp": 1480623779249
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-1486334806",
+  "points": 0,
+  "state": {
+   "active": "656255c1-f295-8afe-ef9b-a3b000d261c4"
+  },
+  "results": [
+   {
+    "current": [
+     "656255c1-f295-8afe-ef9b-a3b000d261c4"
+    ],
+    "right": [
+     "b62375a5-58d7-02a9-517a-9e95dfae2c62"
+    ],
+    "timestamp": 1480691381821
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-4236845060",
+  "points": 0,
+  "state": {
+   "active": "5831a542-5d0f-4d08-f3bf-43d290f6b417"
+  },
+  "results": [
+   {
+    "current": [
+     "5831a542-5d0f-4d08-f3bf-43d290f6b417"
+    ],
+    "right": [
+     "374ea8c8-df89-500d-52ba-0e4b2b67884f"
+    ],
+    "timestamp": 1480691392534
+   }
+  ]
+ },
+ {
+  "taskId": "multiple-choice-2963477499",
+  "points": 1,
+  "state": {
+   "active": "6fed4615-84df-6c93-03f5-32dbdbf6d981"
+  },
+  "results": [
+   {
+    "current": [
+     "6fed4615-84df-6c93-03f5-32dbdbf6d981"
+    ],
+    "right": [
+     "6fed4615-84df-6c93-03f5-32dbdbf6d981"
+    ],
+    "timestamp": 1480691400875
    }
   ]
  }

@@ -25,7 +25,7 @@ public class DoubleInvestment6
         balance += contribution;
         year++;
       }
-      balance -= contribution - 100;
+      balance -= contribution;
      
       System.out.println("Year: " + year);
       System.out.println("Balance: " + balance);

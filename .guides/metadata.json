@@ -13,7 +13,7 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/The-while-loop-45d1.md",
-   "chapter": false,
+   "chapter": true,
    "reset": [],
    "teacherOnly": false
   },
@@ -27,6 +27,18 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false
+  },
+  {
+   "id": "d70b2986-859b-b2f5-4b7e-f25da93a8960",
+   "title": "Teacher Notes",
+   "files": [],
+   "layout": "1-panel",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Teacher-Notes-d70b.md",
+   "chapter": false,
+   "reset": [],
+   "teacherOnly": true
   },
   {
    "id": "e6834311-2211-7c26-de04-81c64247fa24",
@@ -143,7 +155,7 @@
      "action": "close"
     },
     {
-     "path": "#preview: interact/4-4.html",
+     "path": "#preview: ",
      "panel": 0,
      "action": "open"
     }
@@ -165,7 +177,7 @@
      "action": "close"
     },
     {
-     "path": "interact/i6/DoubleInvestment.java",
+     "path": "interact/i6/DoubleInvestment6.java",
      "panel": 0,
      "action": "open"
     }
@@ -187,7 +199,7 @@
      "action": "close"
     },
     {
-     "path": "interact/i8/DoubleInvestment.java",
+     "path": "interact/i8/Investment.java",
      "panel": 0,
      "action": "open"
     }
@@ -196,17 +208,6 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Code-Test---Increasing-contribution-3548.md",
-   "chapter": false,
-   "reset": [],
-   "teacherOnly": false
-  },
-  {
-   "id": "d70b2986-859b-b2f5-4b7e-f25da93a8960",
-   "title": "New Section 13",
-   "files": [],
-   "path": [],
-   "type": "markdown",
-   "content-file": ".guides/content/New-Section-13-d70b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false

@@ -12,7 +12,7 @@ In Chapter 1 we developed the following algorithm for this problem:
 
 Below is some pseudocode that describes the problem.
 
-```
+```java
 Set year to 0, balance to 10000.
 
 While the balance is less than $20,000
